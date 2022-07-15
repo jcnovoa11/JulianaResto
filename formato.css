@@ -1,0 +1,343 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+html{
+scroll-behavior: smooth;
+
+}
+.header{
+    height: 320px;
+    width: auto;
+    background-color: black;
+    padding: 30px ;
+    background-image: url(COMIDA11.png);
+    background-size: cover;
+    
+}
+.logo { 
+    float: left;
+    color: rgb(24, 24, 20);
+    border: white solid 10px;    
+}
+.barra{ 
+    float: right
+}
+.barra ul{ 
+    list-style: none;    
+    padding: 10px;
+    border: white solid 6px;
+    margin-top: 80px;
+    margin-right: 60px;
+    box-shadow: 0.1em 0.1em 0.1em 0.1em black;
+}
+.barra ul li{ 
+    display: inline-block;  
+}
+.barra ul li a{ 
+    text-decoration: none;
+    color: white; 
+    font-size: 30px; 
+    padding: 15px;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-shadow: 0.1em 0.1em 0.1em black;
+}
+.main1{ 
+background-color: khaki;
+height: 120%;
+width: 100%;
+}
+.main1 h1{
+    color:white;
+    text-align: center;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 30px;
+    background-size: cover;
+    /*text-shadow: black 100px; */
+    text-shadow: 0.1em 0.1em 0.1em black;
+    
+}
+   /* .pedidos{
+    color: white;
+    width: 180px;
+    height: 100px;
+    float: right;
+    background-color: rgba(128, 128, 128, 0.093);
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;  
+    border: 2px solid white; 
+    margin-right: 180px;       
+}
+.pedidos p{
+    padding: 25px;
+    text-align: left;
+}
+.pedidos a{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 45px;
+    margin-bottom: 10px; 
+} */
+.img{
+    margin-top: 15px;
+    background-image:url(Resto.png);
+    background-size: 100%;
+    height: 800px;
+    width: 1500px;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    
+    
+}
+.img1{
+    background-image:url(Comida1LOGOBORDE.png);
+    background-size: 100%;
+    height: 800px;
+    width: 1500px;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    
+    
+}
+.img2{
+    background-image:url(comida2.png);
+    background-size: 100%;
+    height: 800px;
+    width: 1500px;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed;*/
+    
+}
+.img3{
+    background-image:url(comida3LOGO.png);
+    background-size: 100%;
+    height: 800px;
+    width: 1500px;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed; */
+    
+}
+
+footer{
+    min-height: auto;
+    background-color: khaki;
+}
+.h4f{
+    font-size: 25px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-shadow: 0.1em 0.1em 0.1em black;
+}
+.redes{
+    text-align: right;
+    font-size: 35px;
+    letter-spacing: 7px;
+    margin-right: 15px;
+    
+    
+}
+.subir{
+height: 50px;
+width: 50px;
+background-color: khaki;
+position: fixed;
+bottom: 90px;
+right: 40px;
+text-align: center;
+font-size: 32px;
+line-height: 45px;
+border: 3px solid black;
+color: black;
+box-shadow: 0.1em 0.1em 0.1em 0.1em black;
+border-radius: 75%;
+}
+
+/* Contacto */
+
+.body2{
+    background-color: white;
+    height: 330px;
+    width: auto;
+}
+
+
+
+.main2{ 
+    background-color: khaki;
+    height: 74px;
+    width: 100%;
+}
+
+.main2 h1{
+        color:white;
+        text-align: center;
+        padding: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 30px;
+        background-size: cover;
+        /*text-shadow: black 100px; */
+        text-shadow: 0.1em 0.1em 0.1em black;
+}
+.formulario{
+    height: 350px;
+    width: auto;
+}
+
+.contactenos{
+    background-color: rgb(40, 40, 43);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 15px;
+    font-size: 24px;
+    text-shadow: 0.1em 0.1em 0.1em black;
+}
+
+
+
+.formulario1{
+    background-color: rgb(40, 40, 43);
+    text-align: center;
+}
+.formulario1 input{
+    width: 700px;
+    height: auto;
+    margin-right: 0px;
+
+}
+.formulario2{
+    background-color:rgb(40, 40, 43);
+    text-align: center;
+    
+}
+.formulario2 textarea{
+    height: auto;
+    width: 700px;
+    margin-top: 10px;
+}
+
+.enviar{
+    background-color: rgb(40, 40, 43);
+    text-align: center;
+    height: 60px;
+    width: auto;
+}
+.enviar input{
+  
+    margin-top: 10px;
+    height: 30px;
+    width: 60px;
+    
+
+}
+
+/* Menu */
+
+/*.bodymenu{
+    background-color:rgb(40, 40, 43) ;
+    height: auto;
+    width: auto;
+}*/
+
+.menu{
+    background-color: rgb(40, 40, 43);
+    height: auto;
+    width: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0.1em 0.1em 0.1em black;
+    text-align: center;
+    color: white;
+    padding: 30px;
+    font-size: 30px;
+    /*margin-bottom: 30px; */
+}
+
+.main3{ 
+    background-color: khaki;
+    height: 74px;
+    width: 100%;
+
+}
+.main3 h1{
+    color:white;
+    text-align: center;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 30px;
+    background-size: cover;
+    /*text-shadow: black 100px; */
+    text-shadow: 0.1em 0.1em 0.1em black;
+    }
+.sectionfotomenu{
+    height: 650px;
+    width: auto;
+    background-color: rgb(40, 40, 43);
+}
+
+.fotomenu{
+    background-image: url(fotomenu.png);
+    height: 600px;
+    background-size: 450px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+.fotomenu:hover{
+    transform: scale(1.1);
+    transition: all 0.9s;
+
+}
+
+
+
+/* Nosotros */
+
+.nosotros{
+    background-color: rgb(40, 40, 43);
+    height: 70px;
+    width: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0.1em 0.1em 0.1em black;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+ }
+
+ .section1{
+    height: 600px;
+    width: auto;
+    background-color: rgb(40, 40, 43);
+ }
+ 
+p{
+    margin-top: 30px;
+    height: 400px;
+    color: white;
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 40%;
+    text-align: justify;
+    margin-left: 140px;
+} 
+    
+ 
+
+ .foto{
+    background-image: url(fonda.png);
+    width: 400px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: right;
+    margin-right: 200px;
+ }
